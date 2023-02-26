@@ -226,3 +226,9 @@ body {
      margin-top: 3rem;
      line-height: 30px;
   }
+
+  .futr {
+    display: flex;
+    margin: 3rem 5rem;
+
+  }
