@@ -70,11 +70,10 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-    width: 550px;
+    width: 750px;
     height: 300px;
-    font-size: 52px;
-    font-weight: 600px;
+    font-size: 62px;
+    font-weight: 800px;
 }
 .hero p{
     color: #81AFDD;
@@ -133,9 +132,97 @@ body {
   }
   .whatis {
      margin: 3rem 6rem;
+     height: 50vw;
     padding: 3rem 5rem;
     background: #052D56;
   }
-  .sec-1 h3{
+  .sec-1{
+    margin-top: 5rem;
+  }
+  .sec-1 span{
+    font-size: 24px;
+    font-weight: bolder;
     color: #ffffff;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+
+  }
+  #rec{
+    display: block;
+    font-size: 52px;
+    line-height: 3px;
+    background: linear-gradient(20.22deg, #ad69f6 1.86%, #F49867 12.55%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    padding-left: 4rem;
+  }
+
+  .sec-1 p{
+    color: #81AFDD;
+    width: 660px;
+    height: 40px;
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .sec-2{
+    margin-top: 10rem;
+    padding: 0 64px;
+  }
+  .sec-2 h1{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; 
+    width: 600px;
+    font-weight: 800;
+    font-size: 38px;
+    line-break: 30px;
+  }
+  .sec-2 span{
+    color: #FF8A71;
+    font-size: 18px;
+    font-weight: 500;
+    float: right;
+    margin-top: -80px;
+
+  }
+  .sec-3{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+   
+  }
+
+  .sub-sec3 .rect{
+    display: block;
+    font-size: 60px;
+    background: linear-gradient(60.22deg, #ad69f6 3.86%, #F49867 29.55%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: lighter;
+    
+    
+  }
+
+  .sub {
+
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 50px;
+        align-items: start;
+  }
+  .sub-sec3 p{
+
+     color: #81AFDD;
+     font-size: 16px;
+     margin-top: 3rem;
+     line-height: 30px;
   }
